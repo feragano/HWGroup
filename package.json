@@ -1,7 +1,5 @@
 {
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.18",
     "tailwindcss": "^3.1.8"
   },
   "name": "hwgroup",
@@ -76,11 +74,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "postcss -i ./src/tailwind.css -o ./dist/output.css --watch"
+    "watch": "npx tailwindcss -i ./src/tailwind.css -o ./dist/output.css --watch"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/feragano/HWGroup.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",

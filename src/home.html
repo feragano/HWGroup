@@ -4,10 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./main.css" rel="stylesheet" />
+    <link href="../dist/output.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div class="header-2">
+      <nav class="bg-white py-2 md:py-4">
+        <div class="container pl-16 pr-60 mx-auto md:flex md:items-center">
+          <div class="flex justify-between items-center">
+            <a href="#" class="font-bold text-xl text-amber-800">Sayap Suci</a>
+            <button
+              class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
+              id="navbar-toggle"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div
+            class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0"
+            id="navbar-collapse"
+          >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >HOME</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >EVENTS</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >RESERVATION</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >360 VIEW</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >NEWS</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div
+      class="bg-[url('https://www.antasiabeachclub.com/Resources/images/Antasia%20Beach%20Club/1920x1080-gallery-13.jpg')] py-6 md:py-18 bg-cover bg-no-repeat"
+    >
+      <div class="container mx-auto">
+        <div class="flex flex-col items-center justify-center h-screen">
+          <h3 class="text-base md:text-3xl font-medium mb-2 text-white">
+            Welcome to Sayap Suci Beach Fest
+          </h3>
+          <h1 class="text-base md:text-4xl font-medium mb-2 text-white">
+            Wakanda's No.1 Destination and Largest One-Stop Entertainment Center
+          </h1>
+          <div>
+            <button
+              class="bg-transparent font-medium text-white py-4 px-8 border-white border text-sm mt-6 hover:bg-white hover:text-black transition-colors duration-300"
+            >
+              RESERVE NOW
+            </button>
+            <button
+              class="bg-white font-medium py-4 px-8 border-white border text-sm mt-6 hover:bg-transparent hover:text-white transition-colors duration-300"
+            >
+              CONTACT US
+            </button>
+          </div>
+          <div>
+            <button
+              class="bg-yellow-300 font-medium py-4 px-16 border-white border text-xl mt-2 hover:bg-white transition-colors duration-300"
+            >
+              NEW YEAR EVENT
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
